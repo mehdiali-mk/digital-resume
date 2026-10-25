@@ -42,8 +42,12 @@
               <h1 class="profile__name">Mehdiali Kadiwala</h1>
 
               <div class="profile__buttons">
-                <button class="profile__button">Information</button>
-                <button class="profile__button">Projects</button>
+                <button class="profile__button main-active" data-target="#info">
+                  Information
+                </button>
+                <button class="profile__button" data-target="#projects">
+                  Projects
+                </button>
               </div>
 
               <h2 class="section__title">Profile</h2>
@@ -213,20 +217,129 @@
               </section>
 
               <!--============ EDUCATION ============-->
-              <section class="education section"></section>
+              <section class="education section">
+                <div class="education__container container">
+                  <h2 class="section__title">Education</h2>
+
+                  <ul class="education__list">
+                    <li class="education__item">
+                      <p>Class of 2026</p>
+                      <h3>
+                        BE Computer Engineering - LD College of Engineering
+                      </h3>
+                    </li>
+                    <li class="education__item">
+                      <p>Class of 2023</p>
+                      <h3>Diploma Computer Engineering - LJ University</h3>
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </div>
           </div>
 
           <!--============ PROJECTS ============-->
-          <section
-            class="projects section"
-            data-content
-            id="projects"
-          ></section>
+          <section class="projects section" data-content id="projects">
+            <div class="projects__container container">
+              <h2 class="section__title">Jobs</h2>
+
+              <div class="projects__content grid">
+                <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__link">
+                    <img
+                      src="assets/img/project-2.jpg"
+                      alt="Project 2 Image"
+                      class="projects__img"
+                    />
+                  </a>
+
+                  <h3 class="projects__name">Modern Design Project</h3>
+                  <p>
+                    Professional website for a company, using HTML, CSS,
+                    JavaScript, Gsap, Figma, Database and others.
+                  </p>
+                </article>
+                <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__link">
+                    <img
+                      src="assets/img/project-3.jpg"
+                      alt="Project 3 Image"
+                      class="projects__img"
+                    />
+                  </a>
+
+                  <h3 class="projects__name">Modern Design Project</h3>
+                  <p>
+                    Professional website for a company, using HTML, CSS,
+                    JavaScript, Gsap, Figma, Database and others.
+                  </p>
+                </article>
+                <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__link">
+                    <img
+                      src="assets/img/project-4.jpg"
+                      alt="Project 4 Image"
+                      class="projects__img"
+                    />
+                  </a>
+
+                  <h3 class="projects__name">Modern Design Project</h3>
+                  <p>
+                    Professional website for a company, using HTML, CSS,
+                    JavaScript, Gsap, Figma, Database and others.
+                  </p>
+                </article>
+                <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__link">
+                    <img
+                      src="assets/img/project-5.jpg"
+                      alt="Project 5 Image"
+                      class="projects__img"
+                    />
+                  </a>
+
+                  <h3 class="projects__name">Modern Design Project</h3>
+                  <p>
+                    Professional website for a company, using HTML, CSS,
+                    JavaScript, Gsap, Figma, Database and others.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
         </div>
 
         <!--============ FOOTER ============-->
-        <footer class="footer"></footer>
+        <footer class="footer">
+          <div class="footer__container container">
+            <a
+              href="mailto:mehdialikadiwala@gmail.com"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="ri-mail-line"></i>
+              <span>mehdialikadiwala@gmail.com</span>
+            </a>
+
+            <a
+              href="tel:(91) - 8849553383"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="ri-phone-line"></i>
+              <span>+91 8849553383</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/mehdiali-mk/"
+              target="_blank"
+              class="footer__link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+              <span>@mehdiali-mk</span>
+            </a>
+          </div>
+        </footer>
       </div>
     </main>
 
